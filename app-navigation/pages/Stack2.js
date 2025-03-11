@@ -20,10 +20,6 @@ const styles = {
     },
     title: {
         fontSize: 30,
-        fontWeight: 'bold',
-        color: 'white',
-        textAlign: 'center',
-        margin: 20,
     },
 };
 

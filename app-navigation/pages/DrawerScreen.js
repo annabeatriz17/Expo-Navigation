@@ -1,5 +1,5 @@
-import React from 'react';
-import { View, Text, } from 'react-native';
+import React from "react";
+import { View, Text } from "react-native";
 
 export default function DrawerScreen() {
     return (
@@ -12,9 +12,9 @@ export default function DrawerScreen() {
 const styles = {
     container: {
         flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center',
-        backgroundColor: '#ffb067',
+        justifyContent: "center",
+        alignItems: "center",
+        backgroundColor: "#ffb067",
     },
     title: {
         fontSize: 30,

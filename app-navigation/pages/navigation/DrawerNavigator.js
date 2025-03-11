@@ -7,9 +7,9 @@ const Drawer = createDrawerNavigator();
 
 export default function DrawerNavigator() {
     return (
-        <Drawer.Navigator initialRouteName="DrawerScreen"> "DrawerScreen"
-            <Drawer.Screen name="DrawerScreen" component={DrawerScreen} />
-            <Drawer.Screen name="Drawer2" component={Drawer2} />
+        <Drawer.Navigator initialRouteName="Drawer Screen">
+            <Drawer.Screen name="Drawer Screen" component={DrawerScreen} />
+            <Drawer.Screen name="Drawer 2" component={Drawer2} />
         </Drawer.Navigator>
     );
 }

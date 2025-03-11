@@ -1,6 +1,5 @@
-import React from 'react';
-import { View, Text, } from 'react-native';
-import { ImageBackground } from 'react-native-web';
+import React from "react";
+import { View } from "react-native";
 
 export default function Drawer2() {
     return (
@@ -11,9 +10,9 @@ export default function Drawer2() {
 const styles = {
     container: {
         flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center',
-        backgroundColor: '#ffed86',
+        justifyContent: "center",
+        alignItems: "center",
+        backgroundColor: "#ffed86",
     },
     title: {
         fontSize: 30,
