@@ -8,6 +8,8 @@ export default function App() {
     return (
         <NavigationContainer>
             <Stack1 />
+            {/* <Stack2 />
+            <Stack3 /> */}
         </NavigationContainer>
     );
 }
